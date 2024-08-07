@@ -13,7 +13,7 @@ export default function HEADER() {
      <h1 className='text-white ms-3'>TECH-SHOP</h1></Link>
       <ul className='d-flex list-unstyled flex-row gap-4 text-white me-3'>
         <li><CiSearch size={25}/></li>
-        <Link className='text-decration-none'><li className='text-white'><IoMdCart size={25} /></li> </Link>
+        <Link className='text-decration-none' to='cart'><li className='text-white'><IoMdCart size={25} /></li> </Link>
         <li><LuUser2 size={25}/></li>
       </ul>
     </div>    
