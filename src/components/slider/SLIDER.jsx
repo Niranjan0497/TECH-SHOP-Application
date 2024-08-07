@@ -17,10 +17,10 @@ function SLIDER() {
         <Carousel.Caption>
             <h2 className='background-text'>Over Ear</h2>
             <div className="Product_info">
-              <h6 className='product-tittle'>Sony WH-XB910N</h6>
-              <p className='product-text_01'> Give Your </p>
-              <p className='product-text_02'> Favourite Music A </p>
-              <p className='product-text_03'> Boost</p>
+              <h6 className='product-tittle_01'>Sony WH-XB910N</h6>
+              <p className='product-text_01'> Give Your Favourite</p>
+              <p className='product-text_02'> Music A Boost</p>
+              
               <span>13,489 <strike> 19,990</strike></span>
               <button className='btn btn-danger'>Shop Now</button>
             </div>
@@ -43,7 +43,7 @@ function SLIDER() {
       <Carousel.Item className='images'>
         <img src="images/products/boat131-1.png" alt="boat131-img" className='img-fluid' />
         <Carousel.Caption>
-        <h2 className='background-text-02'>In Ear</h2>
+        <h2 className='background-text-03'>In Ear</h2>
             <div className="Product_info-03">
               <h6 className='product-tittle'>Boat Airdopes 131</h6>
               <p className='product-text_03-1'> Featherweight For </p>
@@ -55,9 +55,7 @@ function SLIDER() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-
-
-
+    
   );
 
 
