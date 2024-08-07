@@ -63,7 +63,7 @@
     color: rgb(75, 74, 74);
 }
 .Product_info button{
-    transform: translate(-95px,40px);
+    transform: translate(-95px,60px);
 }
 
 .Product_info-02{
@@ -83,7 +83,7 @@
     
 }
 .Product_info-02 button{
-transform: translate(-100px,40px);
+transform: translate(-100px,60px);
 }
 .Product_info-02 span{
     font-weight:bold;
@@ -108,9 +108,14 @@ transform: translate(-100px,40px);
     font-size: 40px;
 }
 .Product_info-03 button{
-transform: translate(-85px,40px);
+transform: translate(-95px,60px);
 }
 .Product_info-03 span{
     font-weight:bolder;
-    margin-left: -928px;
+    margin-left: -920px;
+}
+.Product_info-03 span strike{
+    padding-left: 7px;
+    font-size: 14px;
+    color: rgb(88, 87, 87);
 }
