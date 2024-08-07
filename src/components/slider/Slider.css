@@ -5,14 +5,22 @@
     
 }
 .background-text{
-    transform: translate(-30px,10px);
+    transform: translate(-30px,70px);
+    font-size: 260px;
+    font-weight: bolder;
+    color: rgba(23, 22, 22, 0.907);
+    mix-blend-mode:lighten;
+}
+
+.background-text-02{
+    transform: translate(-30px,20px);
     font-size: 260px;
     font-weight: bolder;
     color: rgba(23, 22, 22, 0.907);
     mix-blend-mode:lighten;
 }
 .Product_info{
-    transform: translate(0px,-100px);
+    transform: translate(0px,-50px);
 }
 .product-tittle{
     font-size: 13px;
@@ -22,20 +30,21 @@
 }
 .product-text_01{
     font-size: 25px;
-    margin-left: -999px;
-    margin-top: -10px;
-
+    /* margin-left: -999px;
+    margin-top: -10px; */
+    transform: translate(-501px,0px);
 }
 .product-text_02{
     font-size: 25px;
-    margin-left: -910px;
-    margin-top: -20px;
-   
+    /* margin-left: -910px;
+    margin-top: -20px; */
+    transform: translate(-455px,-20px);
 }
 .product-text_03{
     font-size: 25px;
-    margin-left: -1040px;
-    margin-top: -20px;
+    /* margin-left: -1040px;
+    margin-top: -20px; */
+    transform: translate(-522px,-40px);
 }
 .Product_info span{
     font-weight: bolder;
@@ -43,5 +52,44 @@
 
 }
 .Product_info button{
-    transform: translate(-105px,50px);
+    transform: translate(-105px,40px);
+}
+
+.Product_info-02{
+    transform: translate(0px,-95px);
+}
+.product-text_02-1{
+    transform: translate(-436px,-8px);
+    font-size: 25px;
+}
+.product-text_02-2{
+    transform: translate(-446px,-30px);
+    font-size: 25px;
+}
+.Product_info-02 button{
+transform: translate(-100px,40px);
+}
+.Product_info-02 span{
+    font-weight:bolder;
+    margin-left: -890px;
+}
+
+
+.Product_info-03{
+    transform: translate(0px,-95px);
+}
+.product-text_03-1{
+    transform: translate(-454px,-5px);
+    font-size: 25px;
+}
+.product-text_03-2{
+    transform: translate(-466px,-26px);
+    font-size: 25px;
+}
+.Product_info-03 button{
+transform: translate(-85px,40px);
+}
+.Product_info-03 span{
+    font-weight:bolder;
+    margin-left: -928px;
 }
