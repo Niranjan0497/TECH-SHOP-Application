@@ -1,0 +1,20 @@
+.ourAdvantages{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.ourAdvantages-main{
+    display: flex;
+    gap: 5px;
+    gap: 140px;
+
+}
+.ourAdvantages-icons {
+    color: red;
+    font-size: 45px;
+}
+.advantage-content{
+    margin-bottom: 10px;
+}
+
