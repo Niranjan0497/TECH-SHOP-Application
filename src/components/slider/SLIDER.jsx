@@ -50,7 +50,7 @@ function SLIDER() {
               <p className='product-text_03-2'> Comfort All Day </p>
               
               <span >1,099<strike>2,990</strike></span>
-              <button className='btn btn-danger'>Shop Now</button>
+              <button className='btn btn-danger '>Shop Now</button>
             </div>
         </Carousel.Caption>
       </Carousel.Item>

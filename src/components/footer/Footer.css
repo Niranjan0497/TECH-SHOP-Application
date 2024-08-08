@@ -1,0 +1,14 @@
+
+.Custom-text{
+    color: white;
+    font-weight: bold;
+}
+.Footer-end{
+    display:flex;
+    justify-content: space-between;
+}
+.Footer-end span{
+    display: flex;
+    gap:35px;
+    
+}
