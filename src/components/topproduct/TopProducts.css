@@ -1,0 +1,56 @@
+.custom-style {
+    display: flex;
+    gap: 5%;
+    transform: translate(35px,35px);
+}
+.Topproducts .product-category .custom-style li{
+    display: flex;
+    margin-left: 95px;
+    padding: 5px 10px;
+    
+}
+.Topproducts .product-category .custom-style li:hover{
+    background-color: rgb(242, 21, 21);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.Topproducts{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+/* TopProductLayout styleing */
+
+
+.custom-carts {
+    border: 1px solid rgb(33, 33, 33);
+    padding: 10px;
+    width: 300px;
+    height: auto;
+}
+.card-img img{
+    width: auto;
+    
+    align-items: center;
+}
+.card-ratting span {
+    color: red;
+}
+.card-tittle{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.card-price{
+    font-size:25px;
+    font-weight: bolder;
+}
+.card-price strike{
+    font-size: 20px;
+}
+.custom-btn{
+    padding-left: 28%;
+    padding-right: 28%;
+    font-weight: bold;
+}
+/* TopProductLayout styleing */
