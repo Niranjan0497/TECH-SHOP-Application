@@ -54,3 +54,23 @@
     font-weight: bold;
 }
 /* TopProductLayout styleing */
+
+
+/* All Products styleing  */
+.custom-allCarts {
+   width: 300px;
+   margin-top: 50px;
+   align-items: center;
+   
+    
+}
+.cart-info {
+    transform: translate(0px,230px);
+    font-weight: bolder;
+    font-size: 30px;
+}
+.cart-info p{
+    margin-bottom: -10px;
+}
+
+/* All Products styleing  */

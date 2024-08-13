@@ -3,6 +3,8 @@ import './TopProducts.css'
 import { useState } from 'react'
 import productsData from '../productsData/PRODUCTDATA'
 import TopProdutsLayOut from './TopProdutsLayOut'
+import { Link } from 'react-router-dom'
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const TopProduct = () => {
 
@@ -38,7 +40,18 @@ const TopProduct = () => {
             <TopProdutsLayOut key={item.id} item={item} /> 
           ))
         }
+        <div className="custom-allCarts card bg-dark  ">
+         <Link className='text-decoration-none text-secondary' to={'All-Products'}>
+         <div className="cart-info ">
+          <p>Browse All</p>
+          <p>Products <FaArrowRightLong /> </p>
+          
+         </div>
+        
+         </Link>
       </div>
+      </div>
+      
     </div>
     </>
   )
