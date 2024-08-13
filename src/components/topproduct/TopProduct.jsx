@@ -23,7 +23,7 @@ const TopProduct = () => {
 
   return (
     <>
-    <div className="Topproducts">
+    <div className="Topproducts ">
       <h2 className='container text-center mt-5 mb-5'>Top Products</h2>
         <div className="product-category">
           <ul className= 'custom-style container  list-unstyled text-secondary mt-5 '>
