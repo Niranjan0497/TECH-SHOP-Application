@@ -1,0 +1,16 @@
+.custom-allCards{
+    width: 300px;
+}
+
+.allProducts-Specification{
+    overflow: scroll;
+    height: 500px;
+    width: 17%;
+    transform: translate(25px,10px);
+}
+.flexGallery{
+    transform: translate(100px,0px);
+    display: flex;
+    flex-wrap: wrap;
+    
+}

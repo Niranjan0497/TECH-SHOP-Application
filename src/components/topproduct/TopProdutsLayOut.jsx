@@ -9,7 +9,7 @@ import { FaRupeeSign } from "react-icons/fa";
 const TopProdutsLayOut = ({item}) => {
   const  {images, title, info, finalPrice,originalPrice, rateCount} =item
     return (
-      <div className="custom-carts card  mt-5 bg-dark text-white" >
+      <div className="custom-carts card  mt-5  text-secondary" >
           <div className="card-img ms-1 p-3">
             <img src={images[0]}  alt="product-img" style={{height:"250px" }} />
           </div>
@@ -28,7 +28,7 @@ const TopProdutsLayOut = ({item}) => {
             <div className="card-description text-secondary">
               {info}
             </div>
-            <hr />
+            <hr className='card-description-HR' />
             <div className="card-price">
               <span ><FaRupeeSign />{finalPrice} 
               

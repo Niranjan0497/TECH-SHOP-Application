@@ -19,40 +19,60 @@
     margin-top: 100px;
     margin-bottom: 150px;
 }
-.custom-carts .card-img:hover{
-    transform: scale(105%);
+.custom-carts:hover .card-img{
+    transform: scale(1.1);
+    
 }
 /* TopProductLayout styleing */
 
 
 .custom-carts {
-    border: 1px solid rgb(33, 33, 33);
+    border: 1px solid rgb(155, 154, 154);
     padding: 10px;
-    width: 300px;
-    height: auto;
+    width: 355px;
+    height: 490px;
+    background-color: rgba(68, 67, 67, 0.17);
+    transform: translate(35px , 0px);
 }
+
 .card-img img{
-    width: auto;
-    
+    width: 75%;
+    transform: translate(32px,0px);
     align-items: center;
+    transition: transform 0.1s ease, filter 0.3s ease;
 }
 .card-ratting span {
     color: red;
 }
+.card-ratting{
+    transform: translate(0px,-22px);
+}
 .card-tittle{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bolder;
+    transform: translate(0px,-23px);
+}
+.card-description{
+    transform: translate(0px,-24px);
+}
+.card-description-HR{
+    transform: translate(0px,-25px);
 }
 .card-price{
     font-size:25px;
     font-weight: bolder;
+    transform: translate(0px,-40px);
+}
+.cart-button{
+    transform: translate(0px,-40px);
+    
 }
 .card-price strike{
-    font-size: 20px;
+    font-size: 17px;
 }
 .custom-btn{
-    padding-left: 28%;
-    padding-right: 28%;
+    padding-left: 33%;
+    padding-right: 33%;
     font-weight: bold;
 }
 /* TopProductLayout styleing */
@@ -60,15 +80,16 @@
 
 /* All Products styleing  */
 .custom-allCarts {
-   width: 300px;
-   
-   margin-top: 50px;
-   align-items: center;
-   
-    
+    width: 350px;
+    height: 490px;
+    background-color: rgba(107, 105, 105, 0.17);
+    /* margin-top: 50px; */
+    transform: translate(40px,47px);
+    align-items: center;
+    border: 1px solid rgb(155, 154, 154);
 }
 .cart-info {
-    transform: translate(0px,230px);
+    transform: translate(0px,195px);
     font-weight: bolder;
     font-size: 30px;
 }

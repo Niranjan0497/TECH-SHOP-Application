@@ -34,18 +34,17 @@ const TopProduct = () => {
             <li onClick={() => categoryFilter('Neckbands')}>Neckbrands</li>
           </ul>
       </div>
-      <div className="flexGallery container d-flex flex-wrap gap-3 mt-5  ">
+      <div className=" d-flex flex-wrap gap-2 mt-5  ">
         {
           (filterProducts.length > 0 ? filterProducts : productsData ).slice(0,11).map(item=>(
             <TopProdutsLayOut key={item.id} item={item} /> 
           ))
         }
-        <div className="custom-allCarts card bg-dark  ">
+        <div className="custom-allCarts card ">
          <Link className='text-decoration-none text-secondary' to={'All-Products'}>
          <div className="cart-info ">
           <p>Browse All</p>
           <p>Products <FaArrowRightLong /> </p>
-          
          </div>
         
          </Link>
