@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flexGallery{
+    margin-bottom: ;
+}
+.custom-img_styling{
+    border: 1px solid rgb(84, 83, 83); 
+    padding: 10px;
+}
+
+.active-image{
+    border: 1px solid white;
+    
+}
+.side-imgs .list-unstyled li{
+    margin: 25px 0px 50px 30px;
+
+    
+}
+
+.flexGallery .main-Image img{
+    margin-top: 25px;
+    
+}
+.specifications{
+    margin-top: 25px;
+   
+}
+.specifications-firstPart{
+    margin-bottom: 40px;
+}
+
+.custom-specifications-priceText strike{
+    font-size: 25px;
+
+}
+.custom-specifications-priceText{
+    font-size: 35px;
+    font-weight: bold;
+}
+.specifications-priceAmount h6{
+    color: rgb(8, 137, 8);
+    font-weight: bold;
+}
+
+
+/* .specifications-button{
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(10, 147, 10);
+    color: white;
+} */
+.specifications-offers pre button{
+    padding: 5px 25px;
+    border: 1px solid grey;
+    background-color: black;
+    color: rgb(161, 154, 154);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}

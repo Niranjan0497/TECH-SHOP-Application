@@ -7,6 +7,7 @@
     display: flex;
     margin-left: 95px;
     padding: 5px 10px;
+    cursor: pointer;
     
 }
 .Topproducts .product-category .custom-style li:hover{
@@ -39,7 +40,7 @@
     width: 75%;
     transform: translate(32px,0px);
     align-items: center;
-    transition: transform 0.1s ease, filter 0.3s ease;
+    transition: transform 0.3s ease-in-out, filter 0.5s ease-in-out;
 }
 .card-ratting span {
     color: red;
@@ -48,9 +49,10 @@
     transform: translate(0px,-22px);
 }
 .card-tittle{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bolder;
     transform: translate(0px,-23px);
+    color: rgba(255, 255, 255, 0.605);
 }
 .card-description{
     transform: translate(0px,-24px);

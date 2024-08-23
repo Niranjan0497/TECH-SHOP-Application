@@ -2,16 +2,17 @@ import React from 'react'
 import './TopProducts.css'
 import { IoMdStar } from 'react-icons/io'
 import { FaRupeeSign } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 
 
 const TopProdutsLayOut = ({item}) => {
-  const  {images, title, info, finalPrice,originalPrice, rateCount} =item
+  const  {images, title, info, finalPrice,originalPrice, rateCount,id} =item
     return (
       <div className="custom-carts card  mt-5  text-secondary" >
           <div className="card-img ms-1 p-3">
-            <img src={images[0]}  alt="product-img" style={{height:"250px" }} />
+           <Link to={`/product/${id}`}  ><img src={images[0]}  alt="product-img" style={{height:"250px" }} /></Link> 
           </div>
 
           <div className='card-body'>

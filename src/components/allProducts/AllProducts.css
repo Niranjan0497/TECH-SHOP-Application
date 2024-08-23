@@ -1,16 +1,100 @@
-.custom-allCards{
-    width: 300px;
-}
-
-.allProducts-Specification{
-    overflow: scroll;
-    height: 500px;
-    width: 17%;
-    transform: translate(25px,10px);
-}
-.flexGallery{
-    transform: translate(100px,0px);
+.allProducts{
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+   
     
 }
+
+
+.allProducts-Specification{
+   
+    height: 580px;
+    width: 300px; 
+    color: rgba(255, 255, 255, 0.605);
+    cursor:pointer;
+   overflow-y: auto;
+   overflow-x: hidden;
+   padding: 15px;
+   box-sizing: border-box;
+   position: sticky;
+   top: 0;
+    
+}
+.allProducts-SortBy,
+.allProduct-FilterBy {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+
+
+
+.flexGallery{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.allProducts-Specification, .flexGallery, .custom-allCards {
+    box-sizing: border-box;
+}
+/* All productLayOut styling  */
+.custom-allCards{
+    border: 1px solid rgb(155, 154, 154);
+    padding: 10px;
+    
+    width: calc(30.33% - 30px);
+    height: 500px;
+    background-color: rgba(68, 67, 67, 0.17);
+    transform: translate(35px , 0px);
+    
+}
+.custom-allCards_img {
+    border-radius: 5px;
+    /* transform: translate(0px,0px); */
+    /* padding-top: 5px;
+    padding-bottom: 10px; */
+    /* border-radius: 5px; */
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%; /* Ensure image fits within the card */
+    height: auto;
+    overflow: hidden;    
+
+}
+
+.custom-allCards_img .custom-allCards_img{
+    width: 220px;
+    margin: 0 auto; /* Center the image */
+    display: block;  
+    
+}
+.custom-allCards_Ratting{
+    /* transform: translate(10px,25px); */
+    color: red;
+}
+
+.custom-allCards_title{
+    font-size: 22px;
+    font-weight: bolder;
+    /* transform: translate(10px,25px); */
+    color: rgba(255, 255, 255, 0.605);
+}
+.custom-allCards_price span{
+    font-size:x-large;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.759);
+}
+.custom-allCards_price span strike{
+    font-size:large;
+    color: rgb(172, 171, 171);
+}
+/* All productLayOut styling  */
+
+
+
+
+
